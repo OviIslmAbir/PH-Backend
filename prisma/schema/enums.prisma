@@ -16,3 +16,7 @@ enum Gender {
   FEMALE
   OTHER
 }
+enum AuthProvider {
+  CREDENTIALS
+  GOOGLE
+}
