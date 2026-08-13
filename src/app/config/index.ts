@@ -32,4 +32,3 @@ export default {
 	smtp_user: process.env.SMTP_USER!,
 	email_sender: process.env.EMAIL_SENDER!,
 };
-
