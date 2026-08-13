@@ -6,7 +6,12 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"ignoreUnknown": false
+		"ignoreUnknown": false,
+		"includes" :[
+			"**",
+			"!src/app/templates"
+			
+		]
 	},
 	"formatter": {
 		"enabled": true,
@@ -25,7 +30,13 @@
                 "noCommaOperator": "info"
 			}
 
-		}
+		},
+		"includes" :[
+			"**",
+			"!src/app/templates"
+			
+		]
+	   
 	},
 	"javascript": {
 		"formatter": {
