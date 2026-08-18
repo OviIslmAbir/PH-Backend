@@ -20,7 +20,9 @@
     "dependencies": {
         "@prisma/adapter-pg": "^7.9.1",
         "@prisma/client": "^7.9.1",
+        "@types/multer": "^2.2.0",
         "bcryptjs": "^3.0.3",
+        "cloudinary": "^2.10.0",
         "cookie-parser": "^1.4.7",
         "cors": "^2.8.6",
         "dotenv": "^17.4.2",
@@ -29,6 +31,7 @@
         "google-auth-library": "^11.0.0",
         "http-status": "^2.1.0",
         "jsonwebtoken": "^9.0.3",
+        "multer": "^2.2.0",
         "nodemailer": "^9.0.5",
         "pg": "^8.22.0",
         "redis": "^6.2.1",

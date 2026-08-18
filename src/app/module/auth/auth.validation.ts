@@ -42,6 +42,10 @@ const PatientRegistrationZodSchema = z.object({
 		})
 		.optional(),
 });
+const PatientEmailVerifyZodSchema = z.object({
+	email: z.email({ message: "Please provide a valid email address" }),
+	otp: z.string().length(6),
+});
 
 const PatientLoginZodSchema = z.object({
 	email: z.email({ message: "Please provide a valid email address" }),
@@ -73,4 +77,5 @@ export const userValidation = {
 	PatientLoginZodSchema,
 	ForgotPasswordZodSchema,
 	ResetPasswordZodSchema,
+	PatientEmailVerifyZodSchema,
 };
